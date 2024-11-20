@@ -7,9 +7,9 @@
 # SPDX-License-Identifier: Apache-2.0
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_crownqltechn.mk
+    $(LOCAL_DIR)/superior_crownqltechn.mk
 
 COMMON_LUNCH_CHOICES := \
-	lineage_crownqltechn-user \
-	lineage_crownqltechn-userdebug \
-	lineage_crownqltechn-eng
+	superior_crownqltechn-user \
+	superior_crownqltechn-userdebug \
+	superior_crownqltechn-eng
