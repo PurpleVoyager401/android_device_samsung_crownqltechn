@@ -13,11 +13,11 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 # Inherit from crownqltechn device
 $(call inherit-product, device/samsung/crownqltechn/device.mk)
 
-# Inherit some common LineageOS stuff
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Derpfest stuff
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier
-PRODUCT_NAME := lineage_crownqltechn
+PRODUCT_NAME := derp_crownqltechn
 PRODUCT_DEVICE := crownqltechn
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := SM-N9600
